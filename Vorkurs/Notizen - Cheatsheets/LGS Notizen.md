@@ -1,1 +1,0 @@
-## Gauß-Verfahren
