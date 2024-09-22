@@ -1,7 +1,7 @@
 ## Addition
 
 - Zunächst auf einen gemeinsamen Nenner bringen
-- 
+- Dann Zähler addieren
 ## Multiplikation
 
 - "Zähler mal Zähler, Nenner mal Nenner"
@@ -11,7 +11,6 @@
 $$
 \begin{align}
 \frac{1}{x} &= \frac{2}{x+1} \\ 
-\frac{1}{x} &= \frac{2}{x+1} \\
 x+1 &=2x \\
 x &= 1
 \end{align}
