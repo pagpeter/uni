@@ -10,11 +10,10 @@
 
 $$
 \begin{align}
-\frac{1}{x} &= \frac{2}{x+1} \\ \\
+\frac{1}{x} &= \frac{2}{x+1} \\ 
 \frac{1}{x} &= \frac{2}{x+1} \\
 x+1 &=2x \\
 x &= 1
-
 \end{align}
 $$
 
@@ -23,6 +22,7 @@ $$
 - https://github.com/kalekdev/uni/blob/main/derivations/surd-rules.typ
 
 $\text{Für }a, b > 0$:
+
 $$
 \begin{align} 
 \sqrt{ a } \sqrt{ b }    &= \sqrt{ ab } \\
