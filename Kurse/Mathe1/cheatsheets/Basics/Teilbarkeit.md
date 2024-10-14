@@ -1,0 +1,8 @@
+- Jede Zahl ist durch 1 teilbar
+- Jede Zahl ist durch sich selbst teilbar
+- Eine Zahl ist durch 2 teilbar, wenn die letzte Ziffer 0, 2, 4, 6 oder 8 ist
+- Eine Zahl ist durch 3 und 9 teilbar, wenn die Quersumme durch 3 teilbar ist
+- Eine Zahl ist durch 4 teilbar, wenn die letzten beiden Ziffern eine durch 4 teilbare Zahl sind
+- Eine Zahl ist durch 6 teilbar, wenn sie durch 2 und durch 3 teilbar ist
+- Eine Zahl ist durch 8 teilbar, wenn die letzten drei Ziffern eine durch 8 teilbare Zahl sind
+- Eine Zahl ist durch 10 teilbar, wenn die letzte Ziffer eine 0 ist
