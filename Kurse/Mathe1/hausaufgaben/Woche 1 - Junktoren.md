@@ -100,7 +100,7 @@ Logische Aussagen können wir also auch umformen. Dafür gibt es ein paar Regeln
 | Äquivalenz                   | $A↔B≡(A→B)∧(B→A)$                                 |
 
 > [!NOTE] 
-> **Beispiel-Beweise für Regeln **
+> **Beispiel-Beweise für Regeln**
 
 > [!col]
 > 
