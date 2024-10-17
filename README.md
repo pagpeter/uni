@@ -1,4 +1,4 @@
-## HPI Notizen WS2024/25
+## HPI BA-ITSE Notizen WS2024/25
 
 Inspiert von [kalekdev/uni](https://github.com/kalekdev/uni)
 
