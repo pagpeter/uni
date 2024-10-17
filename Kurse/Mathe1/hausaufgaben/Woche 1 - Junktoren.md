@@ -1,13 +1,13 @@
 # [Woche 1 - Junktoren](https://hpi.de/friedrich/docs/scripts/24_Mathe1/Junktoren.html)
 
-> [!cue] Definition - Atomare logische Aussagen
+> [!NOTE] Definition - Atomare logische Aussagen
 
 - Aussagen, die entweder wahr oder falsch sind (z. B. $1 \ne 2$ ; $5 > 6$)
 - Dabei egal, ob diese bekannt oder nicht ist (z. B. "Es gibt Aliens") 
 
  - Diese Bestandteile können wir mithilfe von **Junktoren** zu komplexeren Aussagen verbinden
 
-> [!cue] Definition - Junktoren
+> [!NOTE] Definition - Junktoren
 
 - Es gibt binäre und unäre Junktoren 
 	- Binäre Junktoren verknüpfen zwei Aussagen
@@ -22,7 +22,7 @@
 | $A \leftrightarrow B$ | $A$ genau dann, wenn $B$ | Äquivalenz  | \leftrightarrow | Binär |
 - Beim Verbinden können Klammern benutzt werden, für die richtige Operatorenreihenfolge und für die Lesbarkeit
 
-> [!cue] Beispiel - Einsatz von Junktoren
+> [!NOTE] Beispiel - Einsatz von Junktoren
 
 - Beispiel für Verbinden: $(x > 0 \land a \geq b) \Rightarrow a \cdot x \leq b \cdot x$
 	- Beschreibung: Falls $x$ positiv ist und $a \leq b$, so ist $a \cdot x \leq b \cdot x$
@@ -47,7 +47,7 @@
 	- **NAND**: Not-And: $\lnot(A\land B)$
 	- **XOR** $\oplus$: Not-And: $(A\land B)\lor\lnot(A\land B)$
 
-> [!cue] Tautologie und Kontradiktion
+> [!NOTE] Tautologie und Kontradiktion
 > **Tautologie**: Aussage, die unabhängig von dem Wahrheitsgehalt ihrer Teilaussagen wahr ist
 > **Kontradiktion**: Aussage, die unabhängig von dem Wahrheitsgehalt ihrer Teilaussagen falsch ist
 
@@ -72,7 +72,7 @@ $R$ sei die atomare logische Aussage “morgen regnet es”; “$K$” sei die 
 - Deshalb wird für logische Aussagen das Zeichen $≡$ benutzt.
 - Diese beiden Aussagen sind dann **logisch äquivalent**
 
-> [!cue] Logische Äquivalenz und Termäquivalenz
+> [!NOTE] Logische Äquivalenz und Termäquivalenz
 > $x>0∨x=0≡x=0∨x>0$
 > Für Terme benutzen wir $=$, für Logik $\equiv$ (Latex: \equiv)
 
@@ -95,8 +95,7 @@ Logische Aussagen können wir also auch umformen. Dafür gibt es ein paar Regeln
 | Kontraposition               | $A→B≡(¬B)→(¬A)$                                   |
 | Äquivalenz                   | $A↔B≡(A→B)∧(B→A)$                                 |
 
-> [!cue] Beispiel-Beweise für Regeln 
-
+> [!NOTE] Beispiel-Beweise für Regeln 
 
 > [!col]
 > 
@@ -119,9 +118,7 @@ Da in Spalte 3 und 4b die selben Werte stehen, ist die logische Äquivalenz bewi
 > **De-morgansche Regel I**
 > Da in Spalte 3 und 4b die selben Werte stehen, ist die Richtigkeit der De-morgansche Regel I bewiesen
 
-
-
->[!cue] Rechenregeln
+>[!NOTE] Rechenregeln
 Sei $A$ eine Aussage, gelten folgende Regeln:
 
 | Name                                  | Definition           | Code Äquivalent     |
@@ -141,7 +138,7 @@ $$
 \end{align}
 $$
 
->[!cue] [Konjunktive Normalenform (KNF)](https://de.wikipedia.org/wiki/Konjunktive_Normalform)
+>[!IMPORTANT] [Konjunktive Normalenform (KNF)](https://de.wikipedia.org/wiki/Konjunktive_Normalform)
 > Jede Formel der Aussagenlogik lässt sich in die konjunktive Normalenform umwandeln.
 > Diese ist nicht unbedingt die kleinste Darstellung, sondern bloß eine Standardisierte Schreibweise.
 > 
@@ -168,7 +165,7 @@ $$
 $$
 Die letzte Zeile ist logisch äquivalent zur ersten, allerdings in KNF.
 
->[!info] Hauptsatz zur Junktorvollständigkeit
+>[!IMPORTANT] Hauptsatz zur Junktorvollständigkeit
 > Mithilfe von drei verschiedenen Junktoren (paaren) können wir alle anderen Junktoren darstellen.
 > 1. $\lnot, \land$
 > 2.  $\lnot, \lor$
@@ -176,7 +173,7 @@ Die letzte Zeile ist logisch äquivalent zur ersten, allerdings in KNF.
 >    
 > D. h. Wir können mit einem einzigen Junktor (NAND) alle anderen Junktoren durch schlaues kombinieren darstellen. Dies ist sehr praktisch für die Architektur von Computerchips.
 
-> [!summary]
+> [!TIP]
 > - Junktoren verbinden atomare logische Aussagen miteinander.
 > - Wir können logische Aussagen mit ihnen also gut formalisieren.
 > - Es gibt unäre und binäre Junktoren, ähnlich wie Operatoren in Programmiersprachen.
