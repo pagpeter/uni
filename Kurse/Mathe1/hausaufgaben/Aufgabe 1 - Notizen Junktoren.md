@@ -92,8 +92,8 @@ Logische Aussagen können wir also auch umformen. Dafür gibt es ein paar Regeln
 | $\land-$Idempotenz           | $A \land A \equiv A$                              |
 | Kommutativgesetz für $\lor$  | $A \lor B \equiv B \lor A$                        |
 | Kommutativgesetz für $\land$ | $A \land B \equiv B \land A$                      |
-| Assoziativgesetz für $\lor$  | $(A \lor B) \lor A \equiv A \lor  (B \lor C)$     |
-| Assoziativgesetz für $\land$ | $(A \land B) \land A \equiv A \land  (B \land C)$ |
+| Assoziativgesetz für $\lor$  | $(A \lor B) \lor C \equiv A \lor  (B \lor C)$     |
+| Assoziativgesetz für $\land$ | $(A \land B) \land C \equiv A \land  (B \land C)$ |
 | De-morgan'sche Regel I       | $\lnot(A \lor B) \equiv \lnot A \land \lnot B$    |
 | De-morgan'sche Regel II      | $\lnot(A \land B) \equiv \lnot A \lor \lnot B$    |
 | Distributivgesetz I          | $(A∧B)∨C≡(A∨C)∧(B∨C)$                             |

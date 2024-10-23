@@ -22,6 +22,8 @@ D (Dietrich-Dieter)
 (3) $D \to N \lor D$
 (4) $L \to \lnot D$ 
 
+Die Wahrheiten sind quasi mit UND miteinander verknüpft. Wenn eine also falsch ist, müssen wir die anderen nicht mehr ausrechnen.
+
 | L   | N   | D   | $L \lor N \lor D$ | $L \land \lnot N \to D$ | $D \to N \lor D$ | $L \rightarrow \lnot D$ | möglich? |
 | --- | --- | --- | ----------------- | ----------------------- | ---------------- | ----------------------- | -------- |
 | 1   | 1   | 1   | 1                 |                         | 1                | 0                       | 0        |
