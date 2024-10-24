@@ -1,5 +1,6 @@
-https://hpi.de/friedrich/docs/InvLectRooms/mathe1/riddlegroups/course/3/Junktorlogik/%20homework
+# Hausaufgabe Woche 2 - Peter Pagenstedt
 
+*Tutorium: Kleiner Prinz, Wintersemester 2024/25*
 ## 1. Harry, fahr schon mal den Wagen vor!
 
 Kommissar Stefan und Inspektor Harry haben die drei Verdächtigen Langfinger-Ede, Nepper-Johnny und Diedrich-Dieter vorläufig festgenommen. Inspektor Harry fasst die Fakten zusammen:  
@@ -19,12 +20,12 @@ D (Dietrich-Dieter)
 **Wahrheiten**:
 (1) $L \lor N \lor D$
 (2) $L \land \lnot N \to D$
-(3) $D \to N \lor D$
+(3) $D \to N \lor L$
 (4) $L \to \lnot D$ 
 
 Die Wahrheiten sind quasi mit UND miteinander verknüpft. Wenn eine also falsch ist, müssen wir die anderen nicht mehr ausrechnen.
 
-| L   | N   | D   | $L \lor N \lor D$ | $L \land \lnot N \to D$ | $D \to N \lor D$ | $L \rightarrow \lnot D$ | möglich? |
+| L   | N   | D   | $L \lor N \lor D$ | $L \land \lnot N \to D$ | $D \to N \lor L$ | $L \rightarrow \lnot D$ | möglich? |
 | --- | --- | --- | ----------------- | ----------------------- | ---------------- | ----------------------- | -------- |
 | 1   | 1   | 1   | 1                 |                         | 1                | 0                       | 0        |
 | 1   | 1   | 0   | 1                 |                         | 1                |                         |          |
@@ -36,6 +37,8 @@ Die Wahrheiten sind quasi mit UND miteinander verknüpft. Wenn eine also falsch 
 | 0   | 0   | 0   | 0                 |                         | 1                |                         | 0        |
 -> N ist auf jeden fall ein Täter
 -> Bei den anderen ist es nicht klar
+
+<div style="page-break-after: always;"></div>
 
 ## 2. KNF 2
 

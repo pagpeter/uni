@@ -6,12 +6,12 @@
 
  - Diese Bestandteile können wir mithilfe von **Junktoren** zu komplexeren Aussagen verbinden
 
-> [!NOTE]
+> [!CUE]
 > **Definition - Junktoren**
 
 - Es gibt binäre und unäre Junktoren 
 	- Binäre Junktoren verknüpfen zwei Aussagen
-	- Unäre Junktoren wirken nur auf eine Aussage
+	- Unäre Junktoren wirken nur auf eine Aussagen
 
 | Junktor               | Beschreibung             | Name        | Latex           | Typ   |
 | --------------------- | ------------------------ | ----------- | --------------- | ----- |
@@ -24,7 +24,7 @@
 
 <div style="page-break-after: always;"></div>
 
-> [!NOTE] 
+> [!CUE] 
 > ** Beispiel - Einsatz von Junktoren**
 
 - Beispiel für Verbinden: $(x > 0 \land a \geq b) \Rightarrow a \cdot x \leq b \cdot x$
@@ -50,9 +50,9 @@
 	- **NAND**: Not-And: $\lnot(A\land B)$
 	- **XOR** $\oplus$: Not-And: $(A\land B)\lor\lnot(A\land B)$
 
-> [!NOTE] 
-> **Tautologie**: Aussage, die unabhängig von dem Wahrheitsgehalt ihrer Teilaussagen wahr ist
-> **Kontradiktion**: Aussage, die unabhängig von dem Wahrheitsgehalt ihrer Teilaussagen falsch ist
+> [!CUE] 
+> *Tautologie*: Aussage, die unabhängig von dem Wahrheitsgehalt ihrer Teilaussagen wahr ist
+> *Kontradiktion*: Aussage, die unabhängig von dem Wahrheitsgehalt ihrer Teilaussagen falsch ist
 
 
 <div style="page-break-after: always;"></div>
@@ -78,8 +78,8 @@ $R$ sei die atomare logische Aussage “morgen regnet es”; “$K$” sei die 
 - Deshalb wird für logische Aussagen das Zeichen $≡$ benutzt.
 - Diese beiden Aussagen sind dann **logisch äquivalent**
 
-> [!NOTE] 
-> **Logische Äquivalenz und Termäquivalenz**
+> [!CUE] 
+> *Logische Äquivalenz und Termäquivalenz*
 > $x>0∨x=0≡x=0∨x>0$
 > Für Terme benutzen wir $=$, für Logik $\equiv$ (Latex: \equiv)
 
@@ -103,7 +103,7 @@ Logische Aussagen können wir also auch umformen. Dafür gibt es ein paar Regeln
 | Äquivalenz                   | $A↔B≡(A→B)∧(B→A)$                                 |
 
 > [!NOTE] 
-> **Beispiel-Beweise für Regeln**
+> *Beispiel-Beweise für Regeln*
 
 > [!col]
 > 
@@ -185,6 +185,8 @@ Die letzte Zeile ist logisch äquivalent zur ersten, allerdings in KNF.
 > 3. NAND
 >    
 > D. h. Wir können mit einem einzigen Junktor (NAND) alle anderen Junktoren durch schlaues kombinieren darstellen. Dies ist sehr praktisch für die Architektur von Computerchips.
+
+---
 
 > [!TIP] 
 > **Zusammenfassung**
